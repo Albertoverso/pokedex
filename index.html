@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    <title>pokedex</title>
+</head>
+<body>
+
+<main>
+ <img src="#" alt="pokemon" class="pokemon__image">
+
+ <div class="pokemon__info">
+  <div class="pokemon__details">
+    <span class="pokemon__type">Tipo: </span>
+    <span class="pokemon__ability">Habilidade: </span>
+  </div>
+
+ <h1 class="pokemon__data">
+    <span class="pokemon__number"></span> -
+    <span class="pokemon__name"></span>
+  </h1>
+
+
+  <form class="form">
+    <input
+      type="search"
+      class="input__search"
+      placeholder="Nome ou Número do Pokémon"
+      required
+    />
+  </form>
+
+  <div class="buttons">
+    <button class="button btn-prev">Anterior &lt;</button>
+    <button class="button btn-next">Próximo &gt;</button>
+  </div>
+
+
+<img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+
+<div class="pokemon__sidebar">
+  <h2>Detalhes do Pokémon</h2>
+  <div class="pokemon__info">
+      <img src="#" alt="pokemon" class="pokemon__image-sidebar">
+      <p><strong>Número:</strong> <span class="pokemon__number-sidebar"></span></p>
+      <p><strong>Nome:</strong> <span class="pokemon__name-sidebar"></span></p>
+      
+      <p><strong>Tipo:</strong></p>
+      <div class="progress-bar"><div class="progress pokemon__type-sidebar"></div></div>
+
+      <p><strong>Habilidade:</strong></p>
+      <div class="progress-bar"><div class="progress pokemon__ability-sidebar"></div></div>
+
+      <p><strong>Altura:</strong></p>
+      <div class="progress-bar"><div class="progress pokemon__height"></div></div>
+
+      <p><strong>Peso:</strong></p>
+      <div class="progress-bar"><div class="progress pokemon__weight"></div></div>
+  </div>
+</div>
+
+</main>
+
+</body>
+</html>
